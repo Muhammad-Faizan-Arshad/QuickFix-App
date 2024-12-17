@@ -30,6 +30,15 @@ QuickFix is a service application designed to connect users with skilled mechani
 2. **Dashboard**: Users can view a list of mechanics and their details.
 3. **Mechanic Details**: Click on a mechanic's profile to view ratings, reviews, and contact options.
 4. **Submit Reviews**: Users can leave ratings and feedback after service.
+   ## Screenshots
+### 1. Login Screen
+![Login Screen](screenshots/login_screen.png)
+
+### 2. User Dashboard
+![User Dashboard](screenshots/user_dashboard.png)
+
+### 3. Mechanic Profile
+![Mechanic Profile](screenshots/mechanic_profile.png)
 
 ## Project Structure
 - `activities/`: Contains the main activities for user and mechanic flows.
