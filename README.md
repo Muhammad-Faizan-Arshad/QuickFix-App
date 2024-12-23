@@ -42,7 +42,7 @@ QuickFix is a service application designed to connect users with skilled mechani
 ![User Dashboard](screenshots/dashboard.png)
 
 ### 4. Mechanic Profile
-![Mechanic Profile](screenshots/Profile.png)
+![Mechanic Profile](screenshots/Profile.jpg)
 
 ### 5. Signup Screen
 ![Signup Screen](screenshots/signup_screen.png)
