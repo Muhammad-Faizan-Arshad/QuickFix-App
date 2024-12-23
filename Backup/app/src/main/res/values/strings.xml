@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">QuickFix</string>
+    <string name="amit_kumar">Amit Kumar</string>
+    <string name="username">Name</string>
+    <string name="bio">As an Android app developer, I have a passion for creating beautiful and functional apps for users. I write code primarily in Kotlin, which is a popular programming language for Android development. My focus is on creating a visually appealing and intuitive user experience that makes using the app a pleasure.</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="user_information">User Information</string>
+    <string name="username_">Username</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="age">Age</string>
+    <string name="_21">21</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="_07_02_2003">07/02/2003</string>
+    <string name="mobile">Mobile</string>
+    <string name="_91_9000000009">+91 9000000009</string>
+    <string name="email">Email</string>
+    <string name="axxxxxxa_gmail_com">axxxxxxa@gmail.com</string>
+    <string name="social_media">Social Media</string>
+
+    <string-array name="age_array">
+        <item>Select Age</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="experience_array">
+        <item>Select Experience</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10+</item>
+    </string-array>
+
+    <string-array name="city_array">
+        <item>Select City</item>
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Quetta</item>
+        <item>Sialkot</item>
+        <item>Faisalabad</item>
+        <item>Gujranwala</item>
+        <item>Multan</item>
+        <item>Kashmir</item>
+        <item>Hyderabad</item>
+    </string-array>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+   android:background="@color/white"
+    tools:context=".Dataform">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center"
+                android:text="Registration Form"
+                android:textColor="#0E0E0E"
+                android:textSize="34sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Full_Name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/baseline_account_circle_24"
+                android:drawablePadding="8dp"
+                android:drawableTint="#8E24AA"
+                android:hint="Name"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/Age"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/age"
+                android:drawablePadding="8dp"
+                android:hint="Enter Your Age"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@+id/Full_Name" />
+
+            <Spinner
+                android:id="@+id/Experience"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/baseline_account_circle_24"
+                android:drawablePadding="8dp"
+                android:drawableTint="#8E24AA"
+                android:hint="Enter Your Experience"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@+id/Full_Name" />
+
+            <Spinner
+                android:id="@+id/City"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="8dp"
+                android:hint="Location"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@+id/Full_Name" />
+
+            <!-- New Mobile Number Field -->
+            <EditText
+                android:drawableTint="#8E24AA"                android:id="@+id/Mobile_Number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/phone_svgrepo_com"
+                android:drawablePadding="8dp"
+                android:hint="Mobile Number"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:inputType="phone"/>
+
+            <!-- New About Section -->
+            <EditText
+                android:id="@+id/About"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="35dp"
+                android:hint="About"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:gravity="top|start"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="35dp"
+                android:text="Save"
+                android:background="@drawable/lavender_border"
+                android:backgroundTint="@color/purple_500"
+                android:textSize="24sp"
+                android:layout_marginBottom="20dp"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

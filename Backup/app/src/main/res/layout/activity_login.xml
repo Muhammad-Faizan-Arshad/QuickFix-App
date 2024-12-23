@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_card"
+
+        android:gravity="center_horizontal">
+
+        <!-- Logo ImageView -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/round_icon"
+            />
+
+        <!-- Login Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Login To Your Existing Account"
+            android:textColor="#000000"
+            android:textSize="22sp"
+android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold" />
+
+        <!-- Email Input Field -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/gmail" /> <!-- Email icon drawable -->
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="User Name"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp"
+                android:id="@+id/login_username"
+                android:paddingStart="12dp"
+                android:background="@android:color/transparent"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <!-- Password Input Field -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/lock" /> <!-- Password icon drawable -->
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/login_password"
+                android:hint="Password"
+                android:paddingStart="12dp"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:drawableTint="#8E24AA"/> <!-- Eye icon drawable for visibility toggle -->
+        </LinearLayout>
+
+        <!-- Login Button -->
+        <Button
+            android:layout_width="258dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/input_background"
+            android:backgroundTint="#7806A6"
+            android:text="Login"
+            android:textSize="20dp"
+            android:id="@+id/login_button"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupRedirectText"
+            android:text="New to Quickfix? Signup"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/purple_700"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</ScrollView>
